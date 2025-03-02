@@ -1,0 +1,137 @@
+/* font-family: "Merriweather", serif; */
+
+body {
+    font-family: "Merriweather", serif;
+    background-color:#FFE985;
+}
+
+nav {
+    background-color: #FFE985;
+    height: 110px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav .holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+
+nav .logocontainer {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 16px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color:#ff0808; 
+}
+
+nav ul li a.activo {
+    color: white;
+    font-weight: bold;
+    background-color: #ff0808;
+}
+
+/*modificar?*/
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #553506;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/*inicio home */
+
+.homeimg {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cat {
+    color: #ff0808;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*fin home */
+
+/* inicio menu */
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grupocomida {
+    margin-bottom: 40px;
+    text-align: center;
+   
+}
+
+h1 {
+    color: #ff0808;
+    text-align: center;
+}
+
+.menuholder {
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.col {
+    width: 30%;
+    
+}
+
+.comida {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comida li {
+    margin-bottom: 5px;
+}
+
+/* fin menu */

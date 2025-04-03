@@ -1,9 +1,9 @@
-import React from 'react';
+import '../../styles/components/layout/Footer.css'
 
 const Footer = (props) => {
     return (
         <footer>
-            <p>Derechos reservados. La Ramona 2025.</p>
+            <p>Derechos reservados. La Ramona - &copy;2025.</p>
         </footer>
     );
 }

@@ -1,0 +1,40 @@
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.grupocomida {
+    margin-bottom: 40px;
+    text-align: center;
+   
+}
+
+.menuholder {
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.col {
+    width: 30%;
+    
+}
+
+.comida {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comida li {
+    margin-bottom: 5px;
+}
+
+.marco {
+    background-color: red;
+}

@@ -1,11 +1,11 @@
 /* font-family: "Merriweather", serif; */
 
-body {
+body { /*ya esta*/
     font-family: "Merriweather", serif;
     background-color:#FFE985;
 }
 
-nav {
+nav { /*ya esta*/
     background-color: #FFE985;
     height: 110px;
     display: flex;
@@ -13,26 +13,26 @@ nav {
     align-items: center; 
 }
 
-nav ul {
+nav ul { /*ya esta*/
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-nav .holder {
+nav .holder { /*ya esta*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%; 
 }
 
-nav .logocontainer {
+nav .logocontainer { /*ya esta*/
     display: flex;
     align-items: center;
 }
 
-nav ul li a {
+nav ul li a { /*ya esta*/
     color: black;
     text-decoration: none;
     padding: 10px 16px;
@@ -42,12 +42,12 @@ nav ul li a {
     border-radius: 20px;
 }
 
-nav ul li a:hover {
+nav ul li a:hover { /*ya esta*/
     background-color: rgba(0, 0, 0, 0.1);
     color:#ff0808; 
 }
 
-nav ul li a.activo {
+nav ul li a.activo { /*ya esta*/
     color: white;
     font-weight: bold;
     background-color: #ff0808;
@@ -59,7 +59,8 @@ nav ul li a.activo {
     margin: 0 auto;
 }
 
-footer {
+
+footer { /*ya esta*/
     background-color: #553506;
     color: white;
     text-align: center;
@@ -68,19 +69,19 @@ footer {
 
 /*inicio home */
 
-.homeimg {
+.homeimg { /*ya esta*/
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
-.cat {
+.cat { /*ya esta*/
     color: #ff0808;
     font-weight: bold;
     font-size: 18px;
 }
 
-.informacion {
+.informacion { /*ya esta*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +89,7 @@ footer {
     margin-bottom: 20px;
 }
 
-h1 {
+h1 { /*ya esta*/
     color: #ff0808;
     text-align: center;
 }
@@ -141,7 +142,7 @@ h1 {
 
 /*inicio novedades*/
 
-.novedadesholder {
+.novedadesholder { /*ya esta*/
     max-width: 960px;
     margin: 0 auto;
     margin-top: 20px;
@@ -152,7 +153,7 @@ h1 {
     justify-content: space-between;
 }
 
-.novedades {
+.novedades { /*ya esta*/
     width: 28%;
     background-color: white;
     padding: 10px;
@@ -178,12 +179,12 @@ h1 {
 
 /*inicio nosotros*/
 
-.cuadrohistoria img {
+.cuadrohistoria img { /*ya esta*/
     width: 200px;
     border-radius: 10px;
 }
 
-.cuadrohistoria {
+.cuadrohistoria { /*ya esta*/
     display: flex;
     margin-bottom: 30px;
     align-items: center;
@@ -193,7 +194,7 @@ h1 {
     border-radius: 20px;
 }
 
-.cuadrohistoria:nth-child(odd) {
+.cuadrohistoria:nth-child(odd) { /*ya esta*/
     flex-direction: row-reverse;
 }
 
@@ -201,28 +202,28 @@ h1 {
 
 /*inicio contacto*/
 
-.contacto {
+.contacto { /*ya esta*/
     display: flex;
     justify-content: space-between;
     gap: 80px;
     margin: 20px auto;
 }
 
-.contacto h2 {
+.contacto h2 { /*ya esta*/
     text-align: left;
     color:#ff0808;
 }
 
-.contacto div {
+.contacto div { /*ya esta*/
     width: 100%;
 }
 
-.formulario p {
+.formulario p { /*ya esta*/
     display:flex;
 }
 
 .formulario p input,
-.formulario p textarea {
+.formulario p textarea { /*ya esta*/
     width: 100%;
     background: white;
     border-radius: 5px;
@@ -230,12 +231,12 @@ h1 {
     padding: 6px 10px;
 }
 
-.formulario textarea {
+.formulario textarea { /*ya esta*/
     resize: none;
     height: 150px;
 }
 
-.formulario input[type="submit"] {
+.formulario input[type="submit"] { /*ya esta*/
     background: #ff0808;
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
     color: white;
@@ -246,15 +247,15 @@ h1 {
     cursor: pointer;
 }
 
-.formulario input[type="submit"]:hover {
+.formulario input[type="submit"]:hover { /*ya esta*/
     background-color: #2e64a1;
 }
 
-.datos ul{
+.datos ul{ /*ya esta*/
     list-style: none;
 }
 
-.datos ul li {
+.datos ul li { /*ya esta*/
     margin-bottom: 10px;
 }
 

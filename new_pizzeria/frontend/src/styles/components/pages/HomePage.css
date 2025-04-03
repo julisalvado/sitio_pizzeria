@@ -1,0 +1,39 @@
+.homeimg {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.mainimg {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainimg img {
+    width: 100%;
+    height: auto; 
+    display: block;
+}
+.cat {
+    color: #ff0808;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff0808;
+    text-align: center;
+}

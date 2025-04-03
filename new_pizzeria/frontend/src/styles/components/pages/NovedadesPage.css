@@ -1,0 +1,17 @@
+.novedadesholder {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.novedades {
+    width: 28%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}

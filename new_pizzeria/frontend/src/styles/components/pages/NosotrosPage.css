@@ -1,0 +1,18 @@
+.cuadrohistoria img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.cuadrohistoria {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.cuadrohistoria:nth-child(odd) {
+    flex-direction: row-reverse;
+}

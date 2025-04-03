@@ -1,39 +1,33 @@
 import React from 'react';
+import '../styles/components/pages/ContactoPage.css';
 
 const ContactoPage = (props) => {
     return (
         <main className="holder contacto">
             <div>
                 <h2>Contacto Rápido</h2>
-                <form className="formulario" action="" method="">
+                <form action="" method="" className="formulario">
                     <p>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" />
+                        <input type="text" name="" placeholder="Nombre"/>
                     </p>
                     <p>
-                        <label for="email">Email</label>
-                        <input type="text" />
+                        <input type="text" name="" placeholder="Email"/>
                     </p>
-                    <p>
-                        <label for="telefono">Telefono</label>
-                        <input type="text" />
+                    <p>                  
+                        <input type="text" name="" placeholder="Teléfono"/>
                     </p>
-                    <p>
-                        <label for="mensaje">Mensaje</label>
-                        <textarea></textarea>
+                    <p>                  
+                        <textarea type="text" name="" placeholder="Mensaje"></textarea>
                     </p>
                     <p className="acciones"><input type="submit" value="Enviar" /></p>
                 </form>
             </div>
             <div className="datos">
-                <h2>Otras vias de comunicación</h2>
-                <p>También puede contactarse con nosotros usando los siguientes medios</p>
+                <h2>Otras vías de comunicación</h2>
                 <ul>
                     <li>Teléfono: 43242388</li>
-                    <li>Email: contacto@laramona.com.ar</li>
-                    <li>Fcebook:</li>
-                    <li>Instagram:</li>
-                    <li>Twitter:</li>
+                    <li>Email: contacto@transportesx.com.ar</li>
+                    <li>Instagram: @laramona.pizzeria</li>
                 </ul>
             </div>
         </main>

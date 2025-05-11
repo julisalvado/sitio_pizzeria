@@ -26,7 +26,7 @@ const ContactoPage = (props) => {
                 <h2>Otras vías de comunicación</h2>
                 <ul>
                     <li>Teléfono: 43242388</li>
-                    <li>Email: contacto@transportesx.com.ar</li>
+                    <li>Email: contacto@laramona.com.ar</li>
                     <li>Instagram: @laramona.pizzeria</li>
                 </ul>
             </div>

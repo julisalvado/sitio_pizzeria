@@ -16,7 +16,15 @@
 
 .formulario p {
     display:flex;
+    align-items: center;
+    gap: 15px;                 
+    margin-bottom: 15px;
 }
+
+.formulario p label {
+    flex: 0 0 120px;          
+    text-align: right;         
+  }
 
 .formulario p input,
 .formulario p textarea {
@@ -44,7 +52,8 @@
 }
 
 .formulario input[type="submit"]:hover {
-    background-color: #2e64a1;
+    background-color: #000000;
+   
 }
 
 .datos ul{
@@ -54,3 +63,4 @@
 .datos ul li {
     margin-bottom: 10px;
 }
+

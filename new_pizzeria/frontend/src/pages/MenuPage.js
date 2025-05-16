@@ -4,21 +4,21 @@ import '../styles/components/pages/MenuPage.css'
 
 const MenuPage = (props) => {
     return (
-        <main class="menuholder">
+        <main className="menuholder">
             <h1>MENÚ</h1>
-            <div class="columnas">
-                <div class="col">
-                    <div class="grupocomida">
+            <div className="columnas">
+                <div className="col">
+                    <div className="grupocomida">
                         <h3>Entradas</h3>
-                        <ul class="comida">
+                        <ul className="comida">
                             <li>Ensalada Mixta</li>
                             <li>Picada</li>
                             <li>Empanadas</li>
                         </ul>
                     </div>
-                    <div class="grupocomida">
+                    <div className="grupocomida">
                         <h3>Bebidas</h3>
-                        <ul class="comida">
+                        <ul className="comida">
                             <li>Agua</li>
                             <li>Agua Saborizada</li>
                             <li>Gaseosa</li>
@@ -27,10 +27,10 @@ const MenuPage = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="grupocomida">
+                <div className="col">
+                    <div className="grupocomida">
                         <h3>Pizzas</h3>
-                        <ul class="comida">
+                        <ul className="comida">
                             <li>Muzzarella</li>
                             <li>Margarita</li>
                             <li>Fugazzeta</li>
@@ -49,10 +49,10 @@ const MenuPage = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="grupocomida">
+                <div className="col">
+                    <div className="grupocomida">
                         <h3>Postres</h3>
-                        <ul class="comida">
+                        <ul className="comida">
                             <li>Queso y Dulce de Batata</li>
                             <li>Flan Mixto</li>
                             <li>Copa Helada</li>

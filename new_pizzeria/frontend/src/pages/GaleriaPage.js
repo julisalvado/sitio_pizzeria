@@ -4,8 +4,8 @@ import '../styles/components/pages/GaleriaPage.css'
 
 const GaleriaPage = (props) => {
     return (
-        <main class="holder">
-            <div class="galeria">
+        <main className="holder">
+            <div className="galeria">
                 <img src="img/galeria/foto1.jpg" alt="1"/>
                 <img src="img/galeria/foto2.jpg" alt="2"/>
                 <img src="img/galeria/foto3.jpg" alt="3"/>
